@@ -1,5 +1,4 @@
 from reportlab.pdfgen import canvas
-from pdfrw import PdfReader, PdfWriter, PageMerge
 
 GRID_WIDTH = 10
 GRID_HEIGHT = 20
