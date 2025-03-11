@@ -1,14 +1,16 @@
+console.log("Script loaded!");
+
 var pixel_fields = [];
 
-function game_init() {
+const game_init = () => {
     console.log("game_init called!");
     for (var x = 0; x < 10; ++x) {
         pixel_fields[x] = [];
         for (var y = 0; y < 20; ++y) {
-            pixel_fields[x][y] = this.getField(`P_${x}_${y}`);
+            pixel_fields[x][y] = this.getField("P_" + x + "_" + y);
         }
     }
-}
+};
 
 // Call game_init automatically when the PDF opens
 game_init();
