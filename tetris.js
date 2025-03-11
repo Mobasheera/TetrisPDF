@@ -23,3 +23,19 @@ function handle_input(event) {
         case 's': lower_piece(); break;
     }
 }
+
+function rotate_piece() {
+    console.log("Rotate piece");
+}
+
+function move_left() {
+    console.log("Move left");
+}
+
+function move_right() {
+    console.log("Move right");
+}
+
+function lower_piece() {
+    console.log("Lower piece");
+}
