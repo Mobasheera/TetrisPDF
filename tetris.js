@@ -1,7 +1,7 @@
 var pixel_fields = [];
 
 function game_init() {
-    // Gather references to pixel field objects
+    console.log("game_init called!");
     for (var x = 0; x < 10; ++x) {
         pixel_fields[x] = [];
         for (var y = 0; y < 20; ++y) {
@@ -9,6 +9,9 @@ function game_init() {
         }
     }
 }
+
+// Call game_init automatically when the PDF opens
+game_init();
 
 function set_pixel(x, y, state) {
     // Show or hide pixel based on state (true = visible, false = hidden)
