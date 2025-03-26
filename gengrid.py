@@ -672,6 +672,6 @@ filled_pdf = filled_pdf.replace("###FIELD_LIST###", " ".join([f"{i} 0 R" for i i
 filled_pdf = filled_pdf.replace("###GRID_WIDTH###", f"{GRID_WIDTH}")
 filled_pdf = filled_pdf.replace("###GRID_HEIGHT###", f"{GRID_HEIGHT}")
 
-pdffile = open("out.pdf","w")
+pdffile = open("TetrisPDF.pdf","w")
 pdffile.write(filled_pdf)
 pdffile.close()
