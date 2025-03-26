@@ -611,7 +611,7 @@ for x in range(GRID_WIDTH):
 		# Build object
 		pixel = PIXEL_OBJ
 		pixel = pixel.replace("###IDX###", f"{obj_idx_ctr} 0")
-		c = [0, 0, 0]
+		c = [1, 0, 0]
 		pixel = pixel.replace("###COLOR###", f"{c[0]} {c[1]} {c[2]}")
 		pixel = pixel.replace("###RECT###", f"{GRID_OFF_X+x*PX_SIZE} {GRID_OFF_Y+y*PX_SIZE} {GRID_OFF_X+x*PX_SIZE+PX_SIZE} {GRID_OFF_Y+y*PX_SIZE+PX_SIZE}")
 		pixel = pixel.replace("###X###", f"{x}")
@@ -664,7 +664,6 @@ add_button("SPIN", "B_rotate", GRID_OFF_X + 140, GRID_OFF_Y - 70, 50, 50, "rotat
 add_button("Start game", "B_start", GRID_OFF_X + (GRID_WIDTH*PX_SIZE)/2-50, GRID_OFF_Y + (GRID_HEIGHT*PX_SIZE)/2-50, 100, 100, "game_init();")
 
 
-add_text("Type here for keyboard controls (WASD)", "T_input", GRID_OFF_X + 0, GRID_OFF_Y - 200, GRID_WIDTH*PX_SIZE, 50, "handle_input(event);")
 
 add_text("Score: 0", "T_score", GRID_OFF_X + GRID_WIDTH*PX_SIZE+10, GRID_OFF_Y + GRID_HEIGHT*PX_SIZE-50, 100, 50, "")
 
