@@ -74,13 +74,11 @@ endobj
 << >>
 stream
 
-// Hacky wrapper to work with a callback instead of a string 
 function setInterval(cb, ms) {
 	evalStr = "(" + cb.toString() + ")();";
 	return app.setInterval(evalStr, ms);
 }
 
-// https://gist.github.com/blixt/f17b47c62508be59987b
 var rand_seed = Date.now() % 2147483647;
 function rand() {
 	return rand_seed = rand_seed * 16807 % 2147483647;
@@ -663,7 +661,7 @@ add_button("SPIN", "B_rotate", GRID_OFF_X + 140, GRID_OFF_Y - 70, 50, 50, "rotat
 
 add_button("Start game", "B_start", GRID_OFF_X + (GRID_WIDTH*PX_SIZE)/2-50, GRID_OFF_Y + (GRID_HEIGHT*PX_SIZE)/2-50, 100, 100, "game_init();")
 
-
+add_text("Type here for keyboard controls (WASD)", "T_input", GRID_OFF_X + 0, GRID_OFF_Y - 200, GRID_WIDTH*PX_SIZE, 50, "handle_input(event);")
 
 add_text("Score: 0", "T_score", GRID_OFF_X + GRID_WIDTH*PX_SIZE+10, GRID_OFF_Y + GRID_HEIGHT*PX_SIZE-50, 100, 50, "")
 
