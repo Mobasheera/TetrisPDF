@@ -4,7 +4,6 @@
 No external dependencies. No browser. Just open the file in **Adobe Acrobat Reader** and start stacking blocks! 😎
 
 > Built with Python, PDF internals, and JavaScript.  
-> Inspired by [Thomas Rinsma’s PDFTris project](https://github.com/ThomasRinsma/pdftris).
 
 ---
 
