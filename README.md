@@ -70,13 +70,6 @@ No external dependencies. No browser. Just open the file in **Adobe Acrobat Read
 
 ---
 
-## 📜 Credits
-
-- Game logic and PDF generation based on the amazing [PDFTris by Thomas Rinsma](https://github.com/ThomasRinsma/pdftris)
-- Customizations, styling, and layout tweaks by [your name]
-
----
-
 ## 📄 License
 
 MIT License — use it, modify it, share it, just give credit! ❤️
