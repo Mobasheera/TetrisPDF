@@ -84,4 +84,3 @@ MIT License — use it, modify it, share it, just give credit! ❤️
 ---
 
 ### 🕹️ Made with 💻 + 🧠 + ❤️
-```
