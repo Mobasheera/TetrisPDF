@@ -1,7 +1,7 @@
 # 🎮 TetrisPDF — Play Tetris Inside a PDF
 
 **TetrisPDF** is a playable version of the classic game **Tetris**, embedded entirely inside a `.pdf` file!  
-No external dependencies. No browser. Just open the file in **Adobe Acrobat Reader** and start stacking blocks! 😎
+No external dependencies. No browser needed. Just open the file in **Adobe Acrobat Reader** and start stacking blocks! 😎
 
 > Built with Python, PDF internals, and JavaScript.  
 
@@ -70,7 +70,7 @@ No external dependencies. No browser. Just open the file in **Adobe Acrobat Read
 
 ---
 
-## 📅 Mini Project Timeline (Gantt Chart)
+## 📅 Mini Project Development Timeline
 
 | Date    | Week | Task                                 | 08/1 | 15/1 | 22/1 | 05/2 | 20/2 | 05/3 | 12/3 | 19/3 | 26/3 | 02/4 | 10/4 | 16/4 |
 |---------|------|--------------------------------------|------|------|------|------|------|------|------|------|------|------|------|------|
@@ -111,7 +111,7 @@ No external dependencies. No browser. Just open the file in **Adobe Acrobat Read
 
 ## 📄 License
 
-MIT License — use it, modify it, share it, just give credit! ❤️
+This project is licensed under the [MIT License](https://github.com/Mobasheera/TetrisPDF/blob/main/LICENSE).
 
 ---
 
