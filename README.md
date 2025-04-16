@@ -1,4 +1,3 @@
-```markdown
 # 🎮 TetrisPDF — Play Tetris Inside a PDF
 
 **TetrisPDF** is a playable version of the classic game **Tetris**, embedded entirely inside a `.pdf` file!  
