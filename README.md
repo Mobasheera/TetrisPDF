@@ -13,7 +13,6 @@ No external dependencies. No browser. Just open the file in **Adobe Acrobat Read
 - 🧱 Classic Tetris gameplay inside a static `.pdf`
 - 🎨 Red-colored blocks on a 10×20 grid
 - 🕹️ Supports both **buttons** and **keyboard controls (W/A/S/D)**
-- 🏆 Displays **current score** and **high score**
 - ♻️ Fully generated via Python — customizable layout and logic
 - ✨ 100% JavaScript-powered inside the PDF (Acrobat JavaScript)
 
@@ -55,14 +54,6 @@ No external dependencies. No browser. Just open the file in **Adobe Acrobat Read
 
 ---
 
-## 📈 High Score
-
-- Your highest score is tracked **live** inside the PDF
-- Scores **reset on refresh** unless saved manually in Acrobat
-- For persistence, save the PDF **after playing**
-
----
-
 ## 🔧 Requirements
 
 - Python 3.x (for generating the PDF)
@@ -83,7 +74,7 @@ No external dependencies. No browser. Just open the file in **Adobe Acrobat Read
 ## 📜 Credits
 
 - Game logic and PDF generation based on the amazing [PDFTris by Thomas Rinsma](https://github.com/ThomasRinsma/pdftris)
-- Customizations, styling, high score logic, and layout tweaks by [your name]
+- Customizations, styling, and layout tweaks by [your name]
 
 ---
 
@@ -96,7 +87,6 @@ MIT License — use it, modify it, share it, just give credit! ❤️
 ## 🚧 Known Limitations
 
 - JavaScript won't work in browsers like Chrome/Firefox
-- High score doesn't persist unless saved in **Acrobat**
 - No sound or fancy animations (yet 😉)
 
 ---
