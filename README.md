@@ -35,8 +35,8 @@ No external dependencies. No browser needed. Just open the file in **Adobe Acrob
    TetrisPDF.pdf
    ```
 
-   > 🛑 **IMPORTANT:** Open the file in **Adobe Acrobat Reader** or any **supported browser**.
-   > This game was tested in Chrome's PDFium PDF Engine and Firefox's PDF.js PDF Engine
+   > 🛑 **IMPORTANT:** Open the file in **Adobe Acrobat Reader** or any ** javascript supported browser**.
+   > (This game was tested in Chrome's PDFium PDF Engine and Firefox's PDF.js PDF Engine)
 
 ---
 
